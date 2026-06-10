@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangsaaz | Moto-Restore Kit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css?v=1.0.6">
+</head>
+<body>
+
+    <div class="announcement">
+        ⚡ FREE DELIVERY IN KARACHI TODAY ⚡
+    </div>
+
+    <nav class="nav">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <span>RANG</span><span class="nav__logo--accent">SAAZ</span>
+            </div>
+            
+            <button class="nav__cart-btn" aria-label="Open Checkout Cart">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="nav__cart-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+                <span class="nav__cart-badge">1</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main">
+        <!-- Split Layout container for Desktop Split View -->
+        <div class="product-section">
+            <div class="hero">
+                <img id="hero-img" src="assets/images/hero-image.jpeg" class="hero__image" alt="Rangsaaz Moto-Restore Kit Bundle Product Hero">
+                <video id="hero-video" muted playsinline class="hero__video u-hidden">
+                    <source src="assets/videos/main1.mp4" type="video/mp4">
+                </video>
+
+                <div class="hero__controls">
+                    <button onclick="prevVideo()" class="hero__btn" aria-label="Previous Slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hero__btn-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+                    <button onclick="nextVideo()" class="hero__btn" aria-label="Next Slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hero__btn-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <div class="product-info__meta">
+                    <p class="product-info__rating">
+                        ⭐⭐⭐⭐⭐ 9.7k Trusted Results
+                    </p>
+                    <span class="product-info__status">
+                        In Stock
+                    </span>
+                </div>
+                
+                <h1 class="product-info__title">
+                    Moto<br>
+                    Restore<br>
+                    <span class="product-info__title--accent">Kit Bundle</span>
+                </h1>
+                
+                <div class="product-info__price-box">
+                    <div class="product-info__price-detail">
+                        <p class="product-info__price-label">Bundle Price</p>
+                        <span class="product-info__price-current">Rs. 1,195</span>
+                    </div>
+                    <div>
+                        <span class="product-info__price-strike">Rs. 1,999</span>
+                        <span class="product-info__savings-percentage u-italic">YOU SAVE 40%</span>
+                    </div>
+                </div>
+
+                <!-- Custom Dual Palette Swatch Color Preview -->
+                <div class="color-preview">
+                    <div class="color-preview__swatch color-preview__swatch--first" style="background-color: #121212;" title="Matte Black"></div>
+                    <div class="color-preview__swatch color-preview__swatch--last" style="background-color: #C0C0C0;" title="Chrome Silver"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="features__item">
+                <span class="features__icon">🔥</span>
+                <p class="features__text">Heat Resistant</p>
+            </div>
+            <div class="features__item">
+                <span class="features__icon">🛡️</span>
+                <p class="features__text">Anti-Rust Shield</p>
+            </div>
+            <div class="features__item">
+                <span class="features__icon">⚡</span>
+                <p class="features__text">Fast Drying</p>
+            </div>
+        </div>
+
+        <div class="inclusions">
+            <h3 class="inclusions__title u-italic">What's Inside The Kit?</h3>
+            <div class="inclusions__list">
+                <div class="inclusions__item">
+                    <span class="inclusions__check">✔</span>
+                    <p class="inclusions__text">1x Premium Matte Black Spray</p>
+                </div>
+                <div class="inclusions__item">
+                    <span class="inclusions__check">✔</span>
+                    <p class="inclusions__text">1x Chrome Silver Shine Spray</p>
+                </div>
+            </div>
+            <p class="inclusions__footer-text">Everything you need for a <span class="inclusions__footer-text-highlight">Professional Restoration</span></p>
+        </div>
+
+        <section class="reviews">
+            <h3 class="reviews__title u-italic">REVIEWS 4.9/5 ⭐⭐⭐⭐⭐</h3>
+            <div class="reviews__list">
+                <!-- Dynamically Rendered by js/main.js -->
+            </div>
+        </section>
+
+        <section class="comparison">
+            <h2 class="comparison__title">Why Rangsaaz is Better?</h2>
+            <div class="comparison__table-container">
+                <table class="comparison__table">
+                    <thead>
+                        <tr>
+                            <th class="comparison__th">Feature</th>
+                            <th class="comparison__th comparison__th--featured">Rangsaaz</th>
+                            <th class="comparison__th comparison__th--others">Others</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="comparison__tr comparison__tr--highlight">
+                            <td class="comparison__td comparison__td--bold">Finish</td>
+                            <td class="comparison__td comparison__td--featured">Deep Matte <span class="comparison__check">✓</span></td>
+                            <td class="comparison__td comparison__td--others">Dull <span class="comparison__cross">×</span></td>
+                        </tr>
+                        <tr class="comparison__tr">
+                            <td class="comparison__td comparison__td--bold">Heat Safe</td>
+                            <td class="comparison__td comparison__td--featured">Engine Safe <span class="comparison__check">✓</span></td>
+                            <td class="comparison__td comparison__td--others">Peels <span class="comparison__cross">×</span></td>
+                        </tr>
+                        <tr class="comparison__tr comparison__tr--highlight">
+                            <td class="comparison__td comparison__td--bold">Durability</td>
+                            <td class="comparison__td comparison__td--featured">12+ Months <span class="comparison__check">✓</span></td>
+                            <td class="comparison__td comparison__td--others">1 Week <span class="comparison__cross">×</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="guide">
+            <div class="guide__glow"></div>
+            <h2 class="guide__title u-italic">
+                3 Steps to <span class="guide__title-highlight">VIP Finish</span>
+            </h2>
+            
+            <div class="guide__list">
+                <div class="guide__step">
+                    <div class="guide__step-number">1</div>
+                    <div class="guide__step-content">
+                        <h4 class="guide__step-title">Clean Surface</h4>
+                        <p class="guide__step-desc">Dust aur grease saaf karein behtar grip ke liye.</p>
+                    </div>
+                </div>
+                <div class="guide__step guide__step--border">
+                    <div class="guide__step-number">2</div>
+                    <div class="guide__step-content">
+                        <h4 class="guide__step-title">Shake Well</h4>
+                        <p class="guide__step-desc">10 seconds tak shake karein taake color mix ho jaye.</p>
+                    </div>
+                </div>
+                <div class="guide__step">
+                    <div class="guide__step-number">3</div>
+                    <div class="guide__step-content">
+                        <h4 class="guide__step-title">Spray & Dry</h4>
+                        <p class="guide__step-desc">8 inch door se spray karein factory-fresh look ke liye.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="badges">
+            <div class="badge-card">
+                <span class="badge-card__icon">🚀</span>
+                <div class="badge-card__content">
+                    <h4 class="badge-card__title">Karachi Express</h4>
+                    <p class="badge-card__desc">24-48 hours delivery time in Karachi.</p>
+                </div>
+            </div>
+            <div class="badge-card">
+                <span class="badge-card__icon">📦</span>
+                <div class="badge-card__content">
+                    <h4 class="badge-card__title">Open Parcel</h4>
+                    <p class="badge-card__desc">Pehle check karein, phir pay karein.</p>
+                </div>
+            </div>
+            <div class="badge-card">
+                <span class="badge-card__icon">💎</span>
+                <div class="badge-card__content">
+                    <h4 class="badge-card__title">Genuine Quality</h4>
+                    <p class="badge-card__desc">Premium Rangsaaz quality assurance.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__logo">RANGSAAZ</div>
+            <p class="footer__tagline u-italic">Built for Karachi's Environment</p>
+        </footer>
+    </main>
+
+    <div class="sticky-footer">
+        <div class="sticky-footer__container">
+            <div class="sticky-footer__perks">
+                <div class="sticky-footer__perk">
+                    <span class="sticky-footer__perk-icon">💸</span>
+                    <span class="sticky-footer__perk-text">Cash on Delivery</span>
+                </div>
+                <div class="sticky-footer__perk">
+                    <span class="sticky-footer__perk-icon">🚚</span>
+                    <span class="sticky-footer__perk-text">Free-Delivery</span>
+                </div>
+                <div class="sticky-footer__perk">
+                    <span class="sticky-footer__perk-icon">🛡️</span>
+                    <span class="sticky-footer__perk-text">Export Quality</span>
+                </div>
+            </div>
+            <button id="main-order-btn" class="sticky-footer__btn pulse-urgency">
+                Order Kit Now — Rs. 1,195/-
+            </button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal Dialogue Overlay -->
+    <div id="checkout-modal" class="modal u-hidden">
+        <div class="modal__dialog">
+            <button onclick="closeModal()" class="modal__close" aria-label="Close dialog">&times;</button>
+            <h3 class="modal__title u-italic">Confirm Your<br><span class="modal__title--accent">Order</span></h3>
+            <div class="modal__form">
+                <input type="text" id="cust-name" placeholder="Receiver Name" class="modal__input">
+                <input type="tel" id="cust-phone" placeholder="WhatsApp Number" class="modal__input">
+                <textarea id="cust-address" placeholder="Complete Karachi Address" class="modal__textarea"></textarea>
+                
+                <div class="modal__summary">
+                    <div class="modal__summary-row">
+                        <span>Moto Restore Bundle</span>
+                        <span>Rs. 1,195</span>
+                    </div>
+                    <div class="modal__summary-total">
+                        <span>To Pay</span>
+                        <span class="modal__summary-total--accent">Rs. 1,195</span>
+                    </div>
+                </div>
+                <button onclick="sendOrder()" class="modal__submit-btn">Complete Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/products.js?v=1.0.6"></script>
+    <script src="js/main.js?v=1.0.6"></script>
+</body>
+</html>
